@@ -1,7 +1,1 @@
-const world = 'world'
-
-function hello(word: string = world): string {
-    return `Hello ${word}!`
-}
-
-console.log(hello('docker'))
+export { ChaosFactor, fateChart, Odds, oddsMap } from "./fate-chart/"
