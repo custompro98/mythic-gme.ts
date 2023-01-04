@@ -1,7 +1,7 @@
 {
-  "name": "typescript-sample",
+  "name": "Mythic GME",
   "version": "1.0.0",
-  "description": "A repo serving as a typescript template",
+  "description": "Typescript implementation of the Mythic Game Master Emulator",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "npm run clean",
@@ -11,7 +11,8 @@
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest",
     "test:coverage": "jest --collectCoverage",
-    "test:interactive": "jest --watchAll"
+    "test:interactive": "jest --watchAll",
+    "prepublish": "npm run build"
   },
   "author": "custompro98",
   "license": "ISC",
