@@ -1,5 +1,5 @@
 {
-  "name": "Mythic GME",
+  "name": "mythic-gme.ts",
   "version": "1.0.0",
   "description": "Typescript implementation of the Mythic Game Master Emulator",
   "main": "dist/index.js",
